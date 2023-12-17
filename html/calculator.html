@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Advanced Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background">
+        <div class="calculator">
+          <div class="display">
+            <input type="text" id="calculation" disabled>
+            <input type="text" id="display" disabled>
+          </div>
+  <div class="buttons">
+    <button class="grey" onclick="clearDisplay()">C</button>
+    <button class="grey" onclick="backspace()">⌫</button>
+    <button class="grey" onclick="appendToDisplay('%')">%</button>
+    <button class="grey" onclick="appendToDisplay('^')">^</button>
+    <button class="orange" onclick="appendToDisplay('/')">/</button>
+    <button class="grey" onclick="appendToDisplay('7')">7</button>
+    <button class="grey" onclick="appendToDisplay('8')">8</button>
+    <button class="grey" onclick="appendToDisplay('9')">9</button>
+    <button class="orange" onclick="appendToDisplay('*')">*</button>
+    <button class="grey" onclick="appendToDisplay('4')">4</button>
+    <button class="grey" onclick="appendToDisplay('5')">5</button>
+    <button class="grey" onclick="appendToDisplay('6')">6</button>
+    <button class="orange" onclick="appendToDisplay('-')">-</button>
+    <button class="grey" onclick="appendToDisplay('1')">1</button>
+    <button class="grey" onclick="appendToDisplay('2')">2</button>
+    <button class="grey" onclick="appendToDisplay('3')">3</button>
+    <button class="orange" onclick="appendToDisplay('+')">+</button>
+    <button class="grey" onclick="appendToDisplay('0')">0</button>
+    <button class="grey" onclick="appendToDisplay('.')">.</button>
+    <button class="grey" onclick="appendToDisplay('(')">(</button>
+    <button class="grey" onclick="appendToDisplay(')')">)</button>
+    <button class="orange" onclick="calculate()">=</button>
+  </div>
+</div>
+</div>
+
+<script src="jscript.js"></script>
+</body>
+</html>

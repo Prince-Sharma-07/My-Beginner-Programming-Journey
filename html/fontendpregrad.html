@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PreGrad - Professional Frontend</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>PreGrad</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main-content">
+    <h2>Welcome to PreGrad</h2>
+    <p>Destination for professional services.</p>
+    <button onclick="showPopup()">Click for Amazing Popup!</button>
+  </section>
+
+  <div class="popup-container" id="popupContainer">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Amazing Popup!</h2>
+      <p>This is an amazing popup content.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 PreGrad. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

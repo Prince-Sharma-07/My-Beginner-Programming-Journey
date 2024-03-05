@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "prince/prince.sqlproj",
+        "rdb-alpha/prince/prince.sqlproj"
+    ]
+}

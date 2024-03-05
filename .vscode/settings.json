@@ -1,12 +1,6 @@
 {
     "files.associations": {
-        "iostream": "cpp",
-        "deque": "cpp",
-        "string": "cpp",
-        "vector": "cpp",
-        "*.tcc": "cpp"
-    },
-    "dataworkspace.excludedProjects": [
-        "hello/hello.sqlproj"
-    ]
+        "new": "cpp",
+        "iostream": "cpp"
+    }
 }

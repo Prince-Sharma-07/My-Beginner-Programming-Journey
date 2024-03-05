@@ -50,6 +50,7 @@ void display(){
         printf("Stack is empty\n");
         return;
     }
+    
     else
     printf("The elements are: \n");
     for(temp=top; temp!=NULL; temp=temp->next){
